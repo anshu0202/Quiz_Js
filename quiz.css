@@ -1,0 +1,65 @@
+body{
+    background-color:rgb(23, 23, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: rgb(126, 33, 25);
+    margin-top: 10%;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+}
+.game{
+    /* display: none; */
+}
+.content{
+    padding: 50px;
+}
+.question{
+    font-size: 40px;
+}
+.answer{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(113, 17, 203);
+}
+.submit{
+    background-color: purple;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    position: absolute;
+   bottom: 0;
+   font-weight: bold;
+   font-size: 150%;
+}
+.result{
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+.result h1{
+    font-size: 50px;
+}
+.correct{
+    color: green;
+}
+.wrong{
+    color: red;
+}
+.play{
+    /* display: none; */
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    /* font-size:20px ;
+    border-radius: 5px; */
+  background-color: purple ;
+}
